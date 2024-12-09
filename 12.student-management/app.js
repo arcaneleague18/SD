@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './pages/Home';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import Contact from './pages/Contact';
@@ -11,7 +10,6 @@ const App = () => {
     <Router>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
           <li><Link to="/register">Register</Link></li>
           <li><Link to="/login">Login</Link></li>
           <li><Link to="/contact">Contact</Link></li>
@@ -20,7 +18,6 @@ const App = () => {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
