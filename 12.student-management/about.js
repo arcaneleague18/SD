@@ -10,3 +10,7 @@ const About = () => {
 };
 
 export default About;
+//npx create-react-app student-management
+//cd student-management
+//npm init -y
+//npm install react-route-dom web-vitals
