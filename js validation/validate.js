@@ -1,7 +1,7 @@
 function validationRegistrationForm(){
     const username=document.getElementById('username')
     const email=document.getElementById('email')
-    const password=document..getElementById('password')
+    const password=document.getElementById('password')
         if (username.length < 5){
             alert("username at least 5 chracters")
             return false; 
